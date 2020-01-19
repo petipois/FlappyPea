@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+"traceEvents":[
+{ "cat":"", "pid":1, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"tundra" } }
+,{ "pid":1, "tid":0, "ts":9219626590, "dur":88326348, "ph":"X", "name": "Tundra", "args": { "durationMS":88326, "detail":"InitData" }}
+,{ "pid":1, "tid":0, "ts":9307953291, "dur":2, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
+,{ "pid":1, "tid":0, "ts":9307953293, "dur":50, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":1, "tid":0, "ts":9307953365, "dur":1104, "ph":"X", "name": "Tundra", "args": { "durationMS":1, "detail":"BuildQueueInit" }}
+,{ "pid":1, "tid":0, "ts":9307954514, "dur":112, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"CheckInputSignature" }}
+,{ "pid":1, "tid":0, "ts":9307956360, "dur":1696775, "ph":"X", "name": "Download", "args": { "durationMS":1697, "detail":"and unpack artifacts/Stevedore/7za-win-x64/.StevedoreVersion" }}
+,{ "pid":1, "tid":0, "ts":9309653320, "dur":8428, "ph":"X", "name": "Tundra", "args": { "durationMS":8, "detail":"CheckInputSignature" }}
+,{ "pid":1, "tid":0, "ts":9309693667, "dur":83307190, "ph":"X", "name": "Download", "args": { "durationMS":83307, "detail":"and unpack artifacts/Stevedore/tiny-dist/.StevedoreVersion" }}
+,{ "pid":1, "tid":0, "ts":9393001239, "dur":78, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"CheckInputSignature" }}
+,{ "pid":1, "tid":0, "ts":9393001716, "dur":5931, "ph":"X", "name": "Tundra", "args": { "durationMS":6, "detail":"BuildQueueDestroy" }}
+,{ "pid":1, "tid":0, "ts":9393007649, "dur":21161, "ph":"X", "name": "Tundra", "args": { "durationMS":21, "detail":"SaveState" }}
+,{ "pid":1, "tid":3, "ts":9309653343, "dur":8364, "ph":"X", "name": "Tundra", "args": { "durationMS":8, "detail":"CheckInputSignature" }}
+,{ "pid":1, "tid":3, "ts":9309693844, "dur":71686602, "ph":"X", "name": "Download", "args": { "durationMS":71687, "detail":"and unpack artifacts/Stevedore/tiny-samples/.StevedoreVersion" }}
+
+]
+}

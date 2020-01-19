@@ -1,0 +1,45 @@
+{
+    "Success": true,
+    "Diagnostics": [],
+    "Systems": [],
+    "Filters": [],
+    "Behaviours": [],
+    "Performance": [
+        {
+            "Key": "tsconfig",
+            "Description": "Time taken to read and parse the given tsconfig.json file",
+            "Duration": 2372,
+            "Steps": 1
+        },
+        {
+            "Key": "checksum",
+            "Description": "Time taken to compute the MD5 of all inputs",
+            "Duration": 3350,
+            "Steps": 1
+        },
+        {
+            "Key": "compile",
+            "Description": "Time taken to compile the TypeScript program",
+            "Duration": 24342,
+            "Steps": 9
+        },
+        {
+            "Key": "emit",
+            "Description": "Time taken to generate and write the JavaScript output",
+            "Duration": 663,
+            "Steps": 2
+        },
+        {
+            "Key": "metadata",
+            "Description": "Time taken to reflect Tiny metadata from the compiled program",
+            "Duration": 41,
+            "Steps": 0
+        }
+    ],
+    "SourceFiles": [
+        "D:/chris/Documents/UnityProjects/FlappyPea/Library/PackageCache/com.unity.tiny@0.14.5-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityGroup.ts",
+        "D:/chris/Documents/UnityProjects/FlappyPea/Library/PackageCache/com.unity.tiny@0.14.5-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityLookupCache.ts"
+    ],
+    "InputHash": "5d270ae8280f18c2fe898c2f7479a84b",
+    "GeneratedAt": "Sat Jul 06 2019 12:15:57 GMT+0100 (GMT Summer Time)"
+}
